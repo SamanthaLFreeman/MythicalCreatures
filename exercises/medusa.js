@@ -10,7 +10,6 @@ class Medusa {
     if (this.statues.length === 3) {
     this.statues[0].stoned = false;
     this.statues.splice(0, 1, victim)
-    console.log(victim);
   } else {
     this.statues.push(victim);
   }
